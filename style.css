@@ -183,3 +183,17 @@ section i{
     opacity: 0;
   }
 }
+@media screen and (max-width: 480px){
+  .loading .bar {
+    width: 155px;
+    height: 20px;
+    
+  }
+  .loading h2 {
+    font-size: 20px;
+  }
+  .loading .bar:after {
+    top: -10px;
+    font-size: 8px;
+  }
+}
